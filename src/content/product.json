@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "title": "One product. Clear value.",
+    "subtitle": "DigitalHeros helps B2B companies track work, share dashboards, and create reports in one place."
+  },
+  "capabilities": {
+    "title": "What DigitalHeros includes",
+    "subtitle": "Three clear capabilities that help teams stay organized and informed.",
+    "items": [
+      {
+        "title": "Dashboards",
+        "description": "Track team progress and key numbers in views you can customize."
+      },
+      {
+        "title": "Workspaces",
+        "description": "Keep projects, tasks, and approvals in one shared place."
+      },
+      {
+        "title": "Reports",
+        "description": "Create clear reports leaders can use in meetings and reviews."
+      }
+    ]
+  },
+  "showcase": {
+    "title": "See your work in one view",
+    "description": "Stop jumping between chats and spreadsheets. DigitalHeros keeps your team data and daily work together so decisions are faster."
+  },
+  "cta": {
+    "title": "Ready to try DigitalHeros?",
+    "subtitle": "Book a demo or compare plans.",
+    "primary": { "label": "Book a demo", "href": "/contact" },
+    "secondary": { "label": "View pricing", "href": "/pricing" }
+  },
+  "productSchema": {
+    "name": "DigitalHeros Platform",
+    "description": "B2B software for dashboards, team workspaces, and business reports.",
+    "category": "BusinessApplication",
+    "offers": {
+      "price": "49",
+      "priceCurrency": "USD"
+    }
+  }
+}

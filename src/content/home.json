@@ -1,0 +1,133 @@
+{
+  "hero": {
+    "title": "Software that helps B2B teams work clearly",
+    "subtitle": "DigitalHeros is a simple platform for dashboards, team workspaces, and reports—so everyone sees the same numbers and knows what to do next.",
+    "primaryCta": { "label": "Book a demo", "href": "/contact" },
+    "secondaryCta": { "label": "See product", "href": "/product" }
+  },
+  "stats": [
+    { "value": "500+", "label": "Teams using DigitalHeros" },
+    { "value": "38%", "label": "Faster weekly reviews" },
+    { "value": "99.9%", "label": "Uptime" }
+  ],
+  "features": {
+    "eyebrow": "Features",
+    "title": "What you get",
+    "subtitle": "Three core tools. Easy to understand. Easy to use.",
+    "items": [
+      {
+        "title": "Live dashboards",
+        "description": "See key business numbers in one place that stays up to date."
+      },
+      {
+        "title": "Team workspaces",
+        "description": "Track projects and approvals together so nothing gets lost in email."
+      },
+      {
+        "title": "Clear reports",
+        "description": "Share meeting-ready reports that match what your team sees every day."
+      }
+    ]
+  },
+  "lifecycle": {
+    "eyebrow": "Delivery lifecycle",
+    "title": "From plan to launch—clear at every step",
+    "subtitle": "DigitalHeros supports a simple software delivery flow so teams stay aligned from idea to release.",
+    "stages": [
+      {
+        "title": "Plan",
+        "icon": "plan",
+        "description": "Define goals, owners, and timelines in one shared workspace."
+      },
+      {
+        "title": "Design",
+        "icon": "design",
+        "description": "Align requirements and decisions before build work starts."
+      },
+      {
+        "title": "Build",
+        "icon": "build",
+        "description": "Track progress and blockers while development moves forward."
+      },
+      {
+        "title": "Test",
+        "icon": "test",
+        "description": "Review quality checks and approvals in one clear place."
+      },
+      {
+        "title": "Launch",
+        "icon": "launch",
+        "description": "Go live with shared status reports leadership can trust."
+      },
+      {
+        "title": "Improve",
+        "icon": "improve",
+        "description": "Use live dashboards to learn, iterate, and ship the next release."
+      }
+    ]
+  },
+  "successGraph": {
+    "eyebrow": "Success",
+    "title": "Growth by year and country",
+    "subtitle": "A simple look at countries reached and products delivered over time.",
+    "years": [
+      {
+        "year": "2023",
+        "countries": 12,
+        "productsDelivered": 48,
+        "teams": 140,
+        "byCountry": [
+          { "country": "United States", "value": 18 },
+          { "country": "India", "value": 12 },
+          { "country": "United Kingdom", "value": 9 },
+          { "country": "Germany", "value": 5 },
+          { "country": "Australia", "value": 4 }
+        ]
+      },
+      {
+        "year": "2024",
+        "countries": 22,
+        "productsDelivered": 96,
+        "teams": 260,
+        "byCountry": [
+          { "country": "United States", "value": 32 },
+          { "country": "India", "value": 24 },
+          { "country": "United Kingdom", "value": 16 },
+          { "country": "Germany", "value": 14 },
+          { "country": "Australia", "value": 10 }
+        ]
+      },
+      {
+        "year": "2025",
+        "countries": 31,
+        "productsDelivered": 148,
+        "teams": 390,
+        "byCountry": [
+          { "country": "United States", "value": 46 },
+          { "country": "India", "value": 38 },
+          { "country": "United Kingdom", "value": 26 },
+          { "country": "Germany", "value": 22 },
+          { "country": "Australia", "value": 16 }
+        ]
+      },
+      {
+        "year": "2026",
+        "countries": 40,
+        "productsDelivered": 210,
+        "teams": 520,
+        "byCountry": [
+          { "country": "United States", "value": 62 },
+          { "country": "India", "value": 54 },
+          { "country": "United Kingdom", "value": 38 },
+          { "country": "Germany", "value": 32 },
+          { "country": "Australia", "value": 24 }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "Want to see it in action?",
+    "subtitle": "Book a short demo. We will show how DigitalHeros fits your team.",
+    "button": { "label": "Book a demo", "href": "/contact" }
+  }
+}

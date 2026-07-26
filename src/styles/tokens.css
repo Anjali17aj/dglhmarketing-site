@@ -1,0 +1,150 @@
+:root {
+  --c-brand: #21295c;
+  --c-white: #ffffff;
+  --c-grey-50: #f4f5f7;
+  --c-grey-100: #e6e8ee;
+  --c-grey-400: #8b93a7;
+  --c-grey-500: #6b7389;
+  --c-grey-700: #3d4458;
+  --c-grey-900: #1a1d29;
+
+  --c-midnight: var(--c-brand);
+  --c-navy: var(--c-brand);
+  --c-blue: var(--c-brand);
+  --c-deep: var(--c-brand);
+  --c-ice: var(--c-grey-50);
+  --c-black: var(--c-grey-900);
+}
+
+
+
+:root,
+[data-theme='light'] {
+  color-scheme: light;
+
+  --color-bg: var(--c-white);
+  --color-bg-elevated: var(--c-white);
+  --color-surface: var(--c-white);
+  --color-surface-hover: var(--c-grey-50);
+  --color-surface-muted: var(--c-grey-50);
+
+  --color-text: var(--c-grey-700);
+  --color-heading: var(--c-brand);
+  --color-text-secondary: var(--c-grey-700);
+  --color-muted: var(--c-grey-500);
+  --color-placeholder: var(--c-grey-400);
+
+  --color-link: var(--c-brand);
+  --color-link-hover: color-mix(in srgb, var(--c-brand) 82%, black);
+
+  --color-border: var(--c-grey-100);
+  --color-border-strong: var(--c-brand);
+
+  --color-primary: var(--c-brand);
+  --color-primary-hover: color-mix(in srgb, var(--c-brand) 82%, black);
+  --color-primary-soft: var(--c-grey-50);
+
+  --color-success: var(--c-brand);
+  --color-success-soft: var(--c-grey-50);
+  --color-error: #9b1c1c;
+
+  --color-footer-bg: var(--c-brand);
+  --color-footer-text: color-mix(in srgb, var(--c-white) 78%, var(--c-brand));
+  --color-footer-heading: var(--c-white);
+
+  --color-on-primary: var(--c-white);
+
+  --font-sans: 'Plus Jakarta Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-sans);
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-3xl: clamp(2rem, 4vw, 2.75rem);
+  --text-4xl: clamp(2.5rem, 5vw, 3.5rem);
+  --leading-tight: 1.15;
+  --leading-normal: 1.6;
+  --tracking-tight: -0.025em;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  --shadow-xs: 0 1px 2px rgb(33 41 92 / 0.04);
+  --shadow-sm: 0 1px 3px rgb(33 41 92 / 0.06), 0 4px 12px rgb(33 41 92 / 0.04);
+  --shadow-md: 0 4px 16px rgb(33 41 92 / 0.08);
+  --shadow-lg: 0 8px 28px rgb(33 41 92 / 0.1);
+  --shadow-focus: 0 0 0 3px rgb(33 41 92 / 0.22);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+
+  --container: 1160px;
+  --header-height: 4.5rem;
+  --page-top: clamp(3.75rem, 7vw, 5.75rem);
+  --page-top-compact: clamp(3rem, 6vw, 4.5rem);
+  --stack-gap-sm: 0.75rem;
+  --stack-gap-md: 1.25rem;
+  --stack-gap-lg: 2rem;
+  --chip-gap: 0.75rem;
+}
+
+/* Dark theme — same brand navy, white type, muted greys */
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --color-bg: #12141c;
+  --color-bg-elevated: #1a1d29;
+  --color-surface: #1a1d29;
+  --color-surface-hover: #242836;
+  --color-surface-muted: #161924;
+
+  --color-text: #e6e8ee;
+  --color-heading: var(--c-white);
+  --color-text-secondary: #c5c9d4;
+  --color-muted: #8b93a7;
+  --color-placeholder: #6b7389;
+
+  --color-link: #a8b0d0;
+  --color-link-hover: var(--c-white);
+
+  --color-border: #2c3142;
+  --color-border-strong: #4a5478;
+
+  --color-primary: #3a4578;
+  --color-primary-hover: #4a5478;
+  --color-primary-soft: #242836;
+
+  --color-success: #3a4578;
+  --color-success-soft: #242836;
+  --color-error: #f5a3a3;
+
+  --color-footer-bg: #0e1016;
+  --color-footer-text: #c5c9d4;
+  --color-footer-heading: var(--c-white);
+
+  --color-on-primary: var(--c-white);
+
+  --shadow-xs: 0 1px 2px rgb(0 0 0 / 0.35);
+  --shadow-sm: 0 2px 8px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 16px rgb(0 0 0 / 0.45);
+  --shadow-lg: 0 8px 28px rgb(0 0 0 / 0.5);
+  --shadow-focus: 0 0 0 3px rgb(168 176 208 / 0.35);
+}

@@ -1,0 +1,44 @@
+{
+  "eyebrow": "Testimonials",
+  "title": "Trusted by operations leaders",
+  "subtitle": "Teams use DigitalHeros to keep work organized and reports clear.",
+  "featured": {
+    "quote": "DigitalHeros replaced four spreadsheets and gave our team one place for numbers and updates. Leadership finally trusts the same report.",
+    "author": "Priya Nair",
+    "role": "VP Operations",
+    "company": "Northwind Logistics"
+  },
+  "items": [
+    {
+      "quote": "Our weekly reviews used to take an hour of prep. With DigitalHeros, the dashboard is ready and the whole team is aligned before the meeting starts.",
+      "author": "Marcus Chen",
+      "role": "Director of Operations",
+      "company": "Summit SaaS"
+    },
+    {
+      "quote": "We rolled DigitalHeros out to 120 people without friction. SSO and clear permissions made IT and security comfortable from day one.",
+      "author": "James Okonkwo",
+      "role": "IT Operations Lead",
+      "company": "Helix Health"
+    },
+    {
+      "quote": "Board packs used to be a last-minute scramble. Now finance and ops pull from the same report, and the numbers finally match.",
+      "author": "Elena Rodriguez",
+      "role": "Chief of Staff",
+      "company": "Atlas Manufacturing"
+    },
+    {
+      "quote": "Approvals that used to bounce around email for days now finish in one workspace. Our team ships decisions faster with far less follow-up.",
+      "author": "Sofia Patel",
+      "role": "Head of Customer Success",
+      "company": "Brightline Finance"
+    }
+  ],
+  "trustedBy": [
+    "Northwind Logistics",
+    "Summit SaaS",
+    "Atlas Manufacturing",
+    "Helix Health",
+    "Brightline Finance"
+  ]
+}

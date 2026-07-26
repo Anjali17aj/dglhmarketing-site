@@ -1,0 +1,73 @@
+{
+  "intro": {
+    "title": "Simple pricing",
+    "subtitle": "Pick a plan. Start with a free trial. Upgrade when you need more."
+  },
+  "plans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "price": 49,
+      "period": "month",
+      "description": "For small teams getting started.",
+      "features": [
+        "Up to 10 users",
+        "Core dashboards",
+        "3 workspaces",
+        "Email support"
+      ],
+      "cta": "Start free trial",
+      "featured": false
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "price": 149,
+      "period": "month",
+      "description": "For growing teams that need more.",
+      "features": [
+        "Up to 50 users",
+        "Unlimited workspaces",
+        "Advanced reports",
+        "SSO access",
+        "Priority support"
+      ],
+      "cta": "Start free trial",
+      "featured": true
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "price": null,
+      "description": "For larger companies with custom needs.",
+      "features": [
+        "Unlimited users",
+        "Custom setup help",
+        "Dedicated support",
+        "Security review help",
+        "SLA options"
+      ],
+      "cta": "Contact sales",
+      "featured": false
+    }
+  ],
+  "footnote": "All plans include a 14-day free trial. Prices are in USD.",
+  "faqs": [
+    {
+      "question": "Is there a free trial?",
+      "answer": "Yes. Starter and Growth include a 14-day free trial. No credit card needed."
+    },
+    {
+      "question": "Can I change plans later?",
+      "answer": "Yes. You can upgrade or downgrade any time. Changes apply on your next billing cycle."
+    },
+    {
+      "question": "Do you offer yearly pricing?",
+      "answer": "Yes. Yearly plans get 15% off. Contact sales for larger company pricing."
+    },
+    {
+      "question": "What is included in every plan?",
+      "answer": "Every plan includes dashboards, workspaces, reports, and email or priority support based on your tier."
+    }
+  ]
+}
