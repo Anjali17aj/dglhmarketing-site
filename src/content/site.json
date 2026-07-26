@@ -1,9 +1,9 @@
 {
   "name": "DigitalHeros",
   "tagline": "Software for B2B teams",
-  "description": "DigitalH helps B2B teams manage dashboards, shared workspaces, and clear reports in one place.",
-"url": "https://.netlify.app",
-"logo": "https://.netlify.app/favicon.svg",
+  "description": "DigitalHeros helps B2B teams manage dashboards, shared workspaces, and clear reports in one place.",
+  "url": "https://dglhmarketing.netlify.app",
+  "logo": "https://dglhmarketing.netlify.app/favicon.svg",
   "email": "hello@digitalherosdhmarketing.com",
   "phone": "+1 (555) 000-0000",
   "address": {
